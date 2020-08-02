@@ -904,7 +904,7 @@
     #define LULZBOT_M115_EXTRUDER_TYPE             "SingleExtruderAeroV2"
     #define LULZBOT_X_MAX_ENDSTOP_INVERTING        LULZBOT_NORMALLY_CLOSED_ENDSTOP
     #define LULZBOT_E3D_Titan_Aero_V6
-    #define LULZBOT_E_STEPS                        420
+    #define LULZBOT_E_STEPS                        409
     #define LULZBOT_MAY_USE_V2_ADAPTER
 #endif /* TOOLHEAD_CecropiaSilk_SingleExtruderAeroV2 */
 
