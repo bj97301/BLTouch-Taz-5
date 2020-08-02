@@ -1075,7 +1075,7 @@
 #define LULZBOT_TEMP_BED_HYSTERESIS                  5
 #define LULZBOT_TEMP_BED_WINDOW                      5
 
-#define LULZBOT_HEATER_MAXTEMP                     305
+#define LULZBOT_HEATER_MAXTEMP                     300
 #define LULZBOT_EXTRUDE_MINTEMP                    120
 
 #define LULZBOT_THERMAL_PROTECTION_PERIOD           15     // Seconds
