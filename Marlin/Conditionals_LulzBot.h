@@ -1148,9 +1148,9 @@
 
 #if defined(LULZBOT_E3D_Titan_Aero_V6)
     // E3D Titan Aero with LulzBot V6 block
-    #define LULZBOT_DEFAULT_Kp 21.00
-    #define LULZBOT_DEFAULT_Ki  1.78
-    #define LULZBOT_DEFAULT_Kd 61.93
+    #define LULZBOT_DEFAULT_Kp 160.37
+    #define LULZBOT_DEFAULT_Ki  29.66
+    #define LULZBOT_DEFAULT_Kd 216.78
 #endif /* LULZBOT_E3D_Titan_Aero */
 
 #if defined(LULZBOT_E3D_Titan_Aero_Volcano)
