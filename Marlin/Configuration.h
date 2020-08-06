@@ -830,8 +830,8 @@
  *      O-- FRONT --+
  *    (0,0)
  */
-#define X_PROBE_OFFSET_FROM_EXTRUDER +6 // X offset: -left  +right  [of the nozzle] //aerostruder//
-#define Y_PROBE_OFFSET_FROM_EXTRUDER -35 // Y offset: -front +behind [the nozzle] //aerostruder//
+#define X_PROBE_OFFSET_FROM_EXTRUDER -22 // X offset: -left  +right  [of the nozzle] //aerostruder//
+#define Y_PROBE_OFFSET_FROM_EXTRUDER -44 // Y offset: -front +behind [the nozzle] //aerostruder//
 //stock tool// #define X_PROBE_OFFSET_FROM_EXTRUDER -32 // X offset: -left  +right  [of the nozzle]
 //stock tool// #define Y_PROBE_OFFSET_FROM_EXTRUDER -30 // Y offset: -front +behind [the nozzle]
 #define Z_PROBE_OFFSET_FROM_EXTRUDER LULZBOT_Z_PROBE_OFFSET_FROM_EXTRUDER // Z offset: -below +above  [the nozzle]
