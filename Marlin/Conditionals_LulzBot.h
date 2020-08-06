@@ -432,7 +432,7 @@
 #elif defined(LULZBOT_IS_TAZ) && !defined(LULZBOT_USE_HOME_BUTTON)
     // TAZ 5 safe homing position so fan duct does not hit.
     #define LULZBOT_Z_SAFE_HOMING
-    #define LULZBOT_Z_SAFE_HOMING_X_POINT         10
+    #define LULZBOT_Z_SAFE_HOMING_X_POINT         15
     #define LULZBOT_Z_SAFE_HOMING_Y_POINT         10
     #define LULZBOT_Z_HOMING_HEIGHT               5
 #else
