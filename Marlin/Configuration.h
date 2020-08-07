@@ -1113,10 +1113,12 @@
   #define GRID_MAX_POINTS_Y 3
 
   // Set the boundaries for probing (where the probe can reach).
-  #define LEFT_PROBE_BED_POSITION 20
-  #define RIGHT_PROBE_BED_POSITION 265
-  #define FRONT_PROBE_BED_POSITION 20
-  #define BACK_PROBE_BED_POSITION 235
+  #define LEFT_PROBE_BED_POSITION 0
+  #define RIGHT_PROBE_BED_POSITION 263
+  #define FRONT_PROBE_BED_POSITION 0
+  #define BACK_PROBE_BED_POSITION 232
+  #define MAX_PROBE_Y BACK_PROBE_BED_POSITION - Y_PROBE_OFFSET_FROM_EXTRUDER +2
+  #define MAX_PROBE_X RIGHT_PROBE_BED_POSITION - X_PROBE_OFFSET_FROM_EXTRUDER +2
 
   // Probe along the Y axis, advancing X after each column
   #define PROBE_Y_FIRST LULZBOT_PROBE_Y_FIRST
